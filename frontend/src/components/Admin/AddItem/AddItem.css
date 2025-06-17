@@ -1,0 +1,81 @@
+/* Global page style */
+.auth-topic {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #244c33;
+  margin: 20px 0;
+}
+
+/* Centered card-like form container */
+.from_vontiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.from_sub_coon {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Label styling */
+.from_sub_coon label {
+  display: block;
+  font-weight: 600;
+  /* margin-bottom: p; */
+  color: #333;
+}
+
+/* Input styling */
+.from_sub_coon input[type="text"],
+.from_sub_coon input[type="number"],
+.from_sub_coon input[type="file"],
+.from_sub_coon select,
+.from_sub_coon textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Textarea height */
+.from_sub_coon textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+/* Submit button */
+.fom-btn {
+  width: 100%;
+  background-color: #244c33;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fom-btn:hover {
+  background-color: #256327;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 500px) {
+  .from_sub_coon {
+    padding: 20px;
+    width: 90%;
+  }
+}

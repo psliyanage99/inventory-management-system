@@ -1,0 +1,143 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e5f3e;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  transition: color 0.2s;
+}
+
+.nav-links span:hover {
+  color: #2e5f3e;
+}
+
+.nav-links span.active {
+  color: #2e5f3e;
+}
+
+/* CONTAINER */
+.home-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+/* SEARCH BAR */
+.search-bar {
+  padding: 12px 18px;
+  width: 60%;
+  max-width: 420px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.search-bar:focus {
+  border-color: #2e5f3e;
+  box-shadow: 0 0 5px rgba(46, 95, 62, 0.3);
+}
+
+/* ITEM GRID */
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+/* ITEM CARD */
+.item-card {
+  border: 1px solid  #2e5f3e;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE */
+.item-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+/* TEXT STYLES */
+.item-card h3 {
+  margin: 10px 0 4px;
+  font-size: 18px;
+  color: #2e5f3e;
+  font-weight: bold;
+}
+
+.item-card .category {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.item-card .qty {
+  font-weight: bold;
+  font-size: 15px;
+  color: #e53935;
+  margin-bottom: 8px;
+}
+
+.item-card .description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .search-bar {
+    width: 90%;
+  }
+}

@@ -1,0 +1,106 @@
+/* Main title style */
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2e5f3e;
+  margin: 30px 0 20px;
+}
+
+/* Wrapper container */
+.from_vontiner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 60vh;
+}
+
+/* Form card */
+.from_sub_coon {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 30px 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+.from_sub_coon label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: -10px;
+  color: #333;
+  font-size: 14px;
+}
+
+.from_sub_coon input {
+  margin-bottom: 6px;
+}
+
+/* Input and select styles */
+.from_sub_coon input[type="text"]{
+  margin-bottom: 20px;
+}
+.from_sub_coon input[type="number"]{
+  margin-bottom: 20px;
+}
+.from_sub_coon input[type="file"]{
+  margin-bottom: 30px;
+}
+.from_sub_coon select{
+  margin-bottom: 20px;
+}
+.from_sub_coon textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  transition: border 0.3s;
+}
+
+
+.from_sub_coon input:focus,
+.from_sub_coon select:focus,
+.from_sub_coon textarea:focus {
+  border-color: #2e5f3e;
+  outline: none;
+}
+
+/* Textarea specific */
+.from_sub_coon textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+/* Submit button */
+.fom-btn {
+  width: 100%;
+  background-color: #2e5f3e;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fom-btn:hover {
+  background-color: #256327;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .from_sub_coon {
+    padding: 20px;
+    width: 90%;
+  }
+}

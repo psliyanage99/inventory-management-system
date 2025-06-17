@@ -1,0 +1,122 @@
+/* Reset and base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e5f3e;
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.nav-links span.active {
+  color: #2e5f3e;
+}
+
+/* MAIN CONTAINER */
+.profile-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD */
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 30px 40px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.profile-card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* BUTTONS */
+.profile-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile-actions button {
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.update-btn {
+  background-color: #2e5f3e;
+  color: #fff;
+}
+
+.update-btn:hover {
+  background-color: #244c33;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .profile-card {
+    width: 90%;
+    padding: 25px 20px;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .profile-actions button {
+    width: 100%;
+  }
+}

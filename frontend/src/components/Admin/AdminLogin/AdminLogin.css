@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.admin-login-left {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.admin-login-title {
+  color: #2e5f3e;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.admin-login-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.admin-login-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin-login-button {
+  background-color: #2e5f3e;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.admin-login-button:hover {
+  background-color: #244c33;
+}
+
+/* .admin-login-text {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.admin-login-text span {
+  color: #2e5f3e;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+} */
+
+.admin-login-right {
+  flex: 1;
+  background: url('./admin.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* 📱 Mobile & Tablet: Hide Image & Center Form */
+@media screen and (max-width: 1024px) {
+  .admin-login-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .admin-login-right {
+    display: none;
+  }
+
+  .admin-login-left {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .admin-login-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .admin-login-title {
+    text-align: center;
+  }
+
+  .admin-login-text {
+    text-align: center;
+  }
+}
