@@ -42,18 +42,18 @@
 </ol>
 
 <h2>📷 UI Preview</h2>
-<pre><code>![Hom](https://github.com/user-attachments/assets/0d40db66-97e8-48e6-b737-c56d83e1aebc)</code></pre>
-<pre><code>![Hom](https://github.com/user-attachments/assets/0d40db66-97e8-48e6-b737-c56d83e1aebc)</code></pre>
-<pre><code>![regi](https://github.com/user-attachments/assets/9dad1add-84bf-4510-a106-11e4ad5f8d87)</code></pre>
-<pre><code>![regi](https://github.com/user-attachments/assets/9dad1add-84bf-4510-a106-11e4ad5f8d87)</code></pre>
-<pre><code>![logi](https://github.com/user-attachments/assets/4bd1e5ae-96c5-40f6-9448-91c8aa1b0842)</code></pre>
-<pre><code>![logi](https://github.com/user-attachments/assets/4bd1e5ae-96c5-40f6-9448-91c8aa1b0842)</code></pre>
-<pre><code>![admi](https://github.com/user-attachments/assets/dedeebe1-b9c7-42a5-97f1-e2ce63d81308)</code></pre>
-<pre><code>![admi](https://github.com/user-attachments/assets/dedeebe1-b9c7-42a5-97f1-e2ce63d81308)</code></pre>
-<pre><code>![usePro](https://github.com/user-attachments/assets/b2f3762e-033d-4867-95cd-d803b45f5149)</code></pre>
-<pre><code>![usePro](https://github.com/user-attachments/assets/b2f3762e-033d-4867-95cd-d803b45f5149)</code></pre>
-<pre><code>![ItemList](https://github.com/user-attachments/assets/b4c8851c-62fc-432a-81bf-a0ff76e2c21b)</code></pre>
-<pre><code>![ItemList](https://github.com/user-attachments/assets/b4c8851c-62fc-432a-81bf-a0ff76e2c21b)</code></pre>
+![Hom](https://github.com/user-attachments/assets/0d40db66-97e8-48e6-b737-c56d83e1aebc)
+![Hom](https://github.com/user-attachments/assets/0d40db66-97e8-48e6-b737-c56d83e1aebc)
+![regi](https://github.com/user-attachments/assets/9dad1add-84bf-4510-a106-11e4ad5f8d87)
+![regi](https://github.com/user-attachments/assets/9dad1add-84bf-4510-a106-11e4ad5f8d87)
+![logi](https://github.com/user-attachments/assets/4bd1e5ae-96c5-40f6-9448-91c8aa1b0842)
+![logi](https://github.com/user-attachments/assets/4bd1e5ae-96c5-40f6-9448-91c8aa1b0842)
+![admi](https://github.com/user-attachments/assets/dedeebe1-b9c7-42a5-97f1-e2ce63d81308)
+![admi](https://github.com/user-attachments/assets/dedeebe1-b9c7-42a5-97f1-e2ce63d81308)
+![usePro](https://github.com/user-attachments/assets/b2f3762e-033d-4867-95cd-d803b45f5149)
+![usePro](https://github.com/user-attachments/assets/b2f3762e-033d-4867-95cd-d803b45f5149)
+![ItemList](https://github.com/user-attachments/assets/b4c8851c-62fc-432a-81bf-a0ff76e2c21b)
+![ItemList](https://github.com/user-attachments/assets/b4c8851c-62fc-432a-81bf-a0ff76e2c21b)
 
 
 </div>
